@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    font-family: 'be Vietnam' Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    font-size: 62.5%;
+}
+/*Estilo del Header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3vh;
+}
+.boton_ancho{
+    background-color: #F3603B;
+    border-radius: 5rem;
+    border-color: #F3603B;
+    box-shadow: #242E52 0.2rem 0.2rem 0.2rem;
+    color: white;
+    gap: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    width: 13.4rem;
+}
+.categorias_padre{
+    display: flex;
+    flex-direction: row;
+}
+.categorias{
+    color: #242E52;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 3vh;
+    text-decoration: none;
+}
+.boton_arriba img{
+    display: none;
+}
+/*Sección 1: Encabezado con ilustración*/
+.primera_seccion{
+    display: flex;
+    flex-direction: row;
+    gap: 11rem;
+    margin-top: 5rem;
+    margin-right:3rem;
+}
+.primera_seccion1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10rem;
+    width: 100%;
+}
+.primera_seccion2{
+    display: flex;
+}
+h1{
+    color: #232C50;
+    font-size: 5.8rem;
+    font-weight: 700;
+}
+.texto_seccion1{
+    color: black;
+    font-size: 1.656rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    width: 45rem;
+    height: 7.1rem;
+}
+/*Sección 2: Estilo de las funcionalidades*/
+.boton_ancho2{
+    background-color: #F3603B;
+    border-radius: 5rem;
+    border-color: #F3603B;
+    box-shadow: black;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    gap: 1rem;
+    margin: 2rem;
+    text-align: center;
+    width: 6.9rem;
+    height: 4.3rem;
+}
+.segunda_seccion2_1_mobile{
+    display: none;
+}
+h2{
+    color: #232851;
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+h3{
+    color: #323851;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.texto_seccion2{
+    color: #B3B2B7;
+    font-size: 1.656rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    width: 35rem;
+    height: 7.1rem;
+}
+.segunda_seccion{
+    display: flex;
+    flex-direction: row;
+    gap: 12.7rem;
+    margin-top: 9.9rem;
+    width: 100%;
+}
+.segunda_seccion1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    width: 43.9rem;
+}
+.segunda_seccion2{
+    display: flex;
+    flex-direction: column;
+}
+.segunda_seccion2_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2.7rem;
+}
+/*Sección 3: Estilo de las opiniones*/
+.fotos_mobile{
+    display: none;
+}
+.tercera_seccion{
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    margin-left: 1%;
+    margin-top: 10.9rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.tercera_seccion div{
+    background-color: #FAFAFA;
+}
+.tercera_seccion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tercera_seccion1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14rem;
+    position: relative;
+    bottom: 3rem;
+    width: 7rem;
+}
+.tercera_seccion1 h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 3rem;
+}
+.texto_seccion3{
+    color: #B3B2B7;
+    font-size: 1.656rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    position: relative;
+    bottom: 3rem;
+    width: 35rem;
+    height: 7.1rem;
+}
+/*Sección 4: Estilo de la parte baja*/
+.boton_ancho3{
+    background-color: #FFFFFF;
+    border-radius: 5rem;
+    border-color: #FFFFFF;
+    box-shadow: inset;
+    color: #F3603B;
+    gap: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-right: 16.5rem;
+    width: 13.4rem;
+}
+.cuarta_seccion{
+    background-color: #F3613C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18rem;
+    flex-direction: row;
+    width: 100%;
+}
+.cuarta_seccion h2{
+    color: #FFFFFF;
+    font-size: 4rem;
+    margin-left: 16.5rem;
+    width: 43.8rem;
+    height: 9.6rem;
+}
+/*Footer: Estilo del footer*/
+footer{
+    background-color: #1E1E26;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30vh;
+}
+.formulario_mobile{
+    display: none;
+}
+.logo_mobile{
+    display: none;
+}
+.footer_parte1 p{
+    display: none;
+}
+.footer_parte1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6.6vh;
+}
+.footer_parte1 img{
+    margin-right: 1.3vh;
+}
+.footer_parte1 div{
+    margin-left: 5rem;
+}
+.logo{
+    margin-left: 5rem;
+}
+.footer_categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10vw;
+}
+.footer_parte2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5.2vh;
+    gap: 0vh;
+}
+.categorias2{
+    color: white;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1.2vh;
+    text-decoration: none;
+    width: 10rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formulario div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.formulario input{
+    border-radius: 3vh;
+    font-size: 1.32rem;
+    font-weight: 600;
+    padding-left: 1vw;
+    width: 15vw;
+    height: 4vh;
+}
+.formulario p{
+    display: flex;
+    justify-content: center;
+    color: #8C8C94;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 3vh;
+}
+/*Estilos de pseudoclases y pseudoelementos*/
+.categorias:hover{
+    text-shadow: #F3603B 0.5rem 0.5rem 0.5rem; 
+    font-size: 2rem;    
+    transition: 0.5s;
+}
+.tercera_seccion1 img:hover{
+    border: solid black;
+    border-radius: 10vh;
+    width: 10rem;
+    margin-left: 12rem;
+}
+.boton_ancho:hover{
+    box-shadow: #242E52 0.5rem 0.5rem 0.5rem; 
+    font-size: 1rem;    
+    transition: 0.5s;
+}
+.boton_ancho:active{
+    background-color: #1E1E26;
+}
+.categorias2:hover{
+    text-shadow: white 0.5rem 0.5rem 0.5rem; 
+    font-size: 2rem;    
+    transition: 0.5s;
+}
+/*media query para hacer responsive en mobile*/
+@media (max-width: 768px) {
+    /*Estilo del Header*/
+    .categorias_padre{
+        display:none;
+    }
+    .boton_arriba button{
+        display: none;
+    }
+    .boton_arriba img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+    /*Sección 1: Encabezado con ilustración*/
+    .primera_seccion{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .primera_seccion1{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1vh;
+        margin-left: 6rem;
+    }
+    .primera_seccion1 p{
+        color: #B3B2B7;
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 2.6rem;
+        text-align: justify;
+        width: 90%;
+        height: 7.1rem;
+    }
+    .primera_seccion1 button{
+        display: flex;
+        margin-left: 20vh;
+    }
+    /*Sección 2: Estilo de las funcionalidades*/
+    .segunda_seccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .segunda_seccion1{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .segunda_seccion1 p{
+        display: flex;
+        align-items: center;
+        color: #B3B2B7;
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 2.6rem;
+        text-align: justify;
+        width: 90%;
+        height: 7.1rem;
+    }
+    .segunda_seccion2_1{
+        display: none;
+    }
+    .segunda_seccion2_1_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 2.7rem;
+        width: 100%;
+    }
+    .segunda_seccion2_1_mobile div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        background: linear-gradient(to right, white, rgba(243, 97, 60, 0.1));
+        width: 100%;
+        height: 6vh;
+    }
+    .segunda_seccion2_1_mobile button{
+        position: relative;
+        right: 4vh;
+    }
+    /*Sección 3: Estilo de las opiniones*/
+    .tercera_seccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .tercera_seccion1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotos{
+        display: none;
+    }
+    .fotos_mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    /*Sección 4: Estilo de la parte baja*/
+    .cuarta_seccion{
+        background-color: #F3613C;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 5rem;
+        height: 45vh;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .cuarta_seccion article{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 37vw;
+        margin-top: 5vh;
+    }
+    .cuarta_seccion h2{
+        font-size: 4rem;
+        margin-left: 25vw;
+        margin-top: 10vh;
+        text-align: center;
+        width: 30rem;
+        height: 9.6rem;
+    }
+    /*Footer: Estilo del footer*/
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+    .formulario{
+        display: none;
+    }
+    .formulario_mobile{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1vh;
+    }
+    .formulario_mobile div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .formulario_mobile input{
+        border-radius: 5vh;
+        font-size: 1.32rem;
+        font-weight: 600;
+        padding-left: 3vw;
+        width: 40vw;
+        height: 6vh;
+    }
+    .footer_categorias{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer_parte1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_parte1 div{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        margin-bottom: 8vh;
+        margin-right: 1.3vh;
+    }
+    .footer_parte1 p{
+        display: flex;
+        margin-bottom: 10vh;
+        color: #8C8C94;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 3vh;
+    }
+    .logo{
+        display: none;
+    }
+    .logo_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1vh;
+        width: 20rem;
+    }
+    .logo_mobile2{
+        width: 4.5rem;
+    }
+}
